@@ -33,21 +33,22 @@
 
   <section id="privacy">
     <h2>Privacy Policy</h2>
-    <p class="meta">Effective July 27, 2026</p>
+    <p class="meta">Effective November 20, 2026</p>
     <p>NineStitch ("we", "us") is provided by Jacob M. This policy explains what we collect, how we use it, and the choices you have. By using NineStitch you agree to this policy.</p>
 
     <h3>Information you provide</h3>
     <ul>
-      <li><b>Account:</b> your email address and password (passwords are stored securely by our authentication provider, never in plain text).</li>
-      <li><b>Your home:</b> address, and property details such as year built, size, and type.</li>
+      <li><b>Account:</b> your name, email address and password (passwords are stored securely by our authentication provider, never in plain text). If you use Sign in with Apple, Apple shares your name and an email address (which may be a private relay address).</li>
+      <li><b>Your home:</b> address, property details such as year built, size, and type, and an optional home photo.</li>
       <li><b>Equipment:</b> the appliances and systems you add — type, brand, model number, install date, your notes, and any photos you take of nameplates or equipment.</li>
       <li><b>Service pros (vendor accounts):</b> business name, contact info, trades, hours, and business photos.</li>
     </ul>
 
     <h3>Information collected automatically</h3>
     <ul>
-      <li>Basic app usage and diagnostics needed to operate the service.</li>
-      <li>A push-notification token (if you enable reminders) so we can send maintenance reminders.</li>
+      <li>A push-notification token (if you allow notifications) so we can send maintenance reminders.</li>
+      <li>Counts of how often you use paid features (such as photo scans), so we can apply fair-use limits and control costs, and which pros you tap to contact.</li>
+      <li>Crash reports that help us fix bugs. These do not include your name, email, or photos.</li>
     </ul>
 
     <h3>How we use your information</h3>
@@ -62,20 +63,24 @@
     <p>We use trusted third parties to run NineStitch. We share only what each needs:</p>
     <ul>
       <li><b>Supabase</b> — secure hosting, database, authentication, and file storage.</li>
-      <li><b>Anthropic (Claude AI)</b> — to generate your maintenance plan, we send equipment details (type, brand, model). We do not send your name, address, or account email for this purpose.</li>
-      <li><b>Google</b> — address lookup and finding local service businesses.</li>
-      <li><b>YouTube</b> — to suggest relevant how-to videos for tasks.</li>
+      <li><b>Anthropic (Claude AI)</b> — a third-party AI service. To generate maintenance plans we send equipment details (type, brand, model). When you choose to scan a nameplate, we send that photo so the AI can read the label — the app asks your permission before your first scan, and you can always type details instead. For custom tasks we may send the task name and description to find a how-to video. We never send your name, address, or account email to Anthropic, and Anthropic does not use this data to train its models.</li>
+      <li><b>Google</b> — the address you type (for address suggestions) and your city or ZIP code (to find local service businesses).</li>
+      <li><b>YouTube</b> — task and equipment names, to find relevant how-to videos.</li>
+      <li><b>Expo</b> — delivers push notifications to your device (your push token and the reminder text).</li>
+      <li><b>Apple</b> — Sign in with Apple, if you use it. When you delete your account we also revoke NineStitch's access to your Apple ID.</li>
+      <li><b>Sentry</b> — crash reporting, without your name, email, or photos.</li>
     </ul>
+    <p>Supply links (for example to Amazon or Home Depot) open the retailer's own site or app; we don't share your information with them. If we join their affiliate programs we may earn a commission on qualifying purchases, at no extra cost to you.</p>
     <p>When you choose to contact a service professional, we share the details needed to complete that request (such as your name, the job, and contact info you provide). We do <b>not</b> sell your personal information.</p>
 
     <h3>Data retention &amp; security</h3>
     <ul>
       <li>We keep your information while your account is active.</li>
-      <li>We use industry-standard measures (encryption in transit, access controls) to protect your data.</li>
+      <li>We use industry-standard measures (encryption in transit, access controls) to protect your data. Photos are stored at unlisted links that only your account knows.</li>
     </ul>
 
     <h3>Deleting your account</h3>
-    <p>You can permanently delete your account and associated data at any time from Profile → "Delete my account." This removes your home, equipment, tasks, and account record.</p>
+    <p>You can permanently delete your account and associated data at any time from Profile → "Delete my account." This removes your home, equipment, tasks, photos, and account record. Usage-cost records are kept without any link to you.</p>
 
     <h3>Children</h3>
     <p>NineStitch is not directed to children under 13, and we do not knowingly collect their information.</p>
@@ -95,7 +100,7 @@
 
   <section id="terms">
     <h2>Terms of Service</h2>
-    <p class="meta">Effective July 27, 2026</p>
+    <p class="meta">Effective November 20, 2026</p>
     <p>These Terms govern your use of NineStitch, provided by Jacob M. By using the app you agree to these Terms. If you do not agree, do not use the app.</p>
 
     <h3>What NineStitch does</h3>
