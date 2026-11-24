@@ -33,6 +33,13 @@
   .footer a { color:var(--orangeText); text-decoration:none; font-weight:500; }
   .footer a:hover { text-decoration:underline; }
   .dot { color:var(--orange); }
+  .cta { display:inline-flex; align-items:center; gap:10px; margin:12px 0 8px; padding:14px 22px;
+         background:var(--navy); color:var(--white); border-radius:12px; text-decoration:none;
+         font-weight:600; font-size:17px; }
+  .cta:hover { background:#16304F; }
+  .cta:focus-visible { outline:3px solid var(--orange); outline-offset:3px; }
+  .cta svg { width:20px; height:20px; fill:currentColor; }
+  .cta-note { margin:4px 0 0; font-size:14px; }
 </style>
 </head>
 <body>
@@ -41,6 +48,12 @@
 
   <h1>Home maintenance, handled.</h1>
   <p class="lead">NineStitch helps homeowners treat their house like an asset — a personalized maintenance plan, reminders before things break, step-by-step guides, and a line to local pros when a job is bigger than a weekend.</p>
+
+  <a class="cta" href="https://apps.apple.com/app/id6780742346">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a1 1 0 0 1 1 1v9.59l3.3-3.3a1 1 0 1 1 1.4 1.42l-5 5a1 1 0 0 1-1.4 0l-5-5a1 1 0 1 1 1.4-1.42l3.3 3.3V4a1 1 0 0 1 1-1zM5 19a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H5z"/></svg>
+    Get NineStitch on the App Store
+  </a>
+  <p class="cta-note">Free for iPhone.</p>
 
   <ul>
     <li>A plan built for your home, appliances, and climate.</li>
