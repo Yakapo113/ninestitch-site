@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PL5N65WAWR.com.yakapo.homeguard"],
+        "components": [{ "/": "/join*", "comment": "Household invite links" }]
+      }
+    ]
+  }
+}
